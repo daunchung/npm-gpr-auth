@@ -1,8 +1,8 @@
-name: Authenticate npm with the GPR
+name: GPR authentication for npm
 description:
   Authenticate npm for consuming and publishing packages from and to the GitHub
-  Package Registry
-author: jgierer12
+  Package Registry on Linux, Windows, and macOS.
+author: aquacash5
 branding:
   icon: package
   color: gray-dark
