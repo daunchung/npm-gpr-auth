@@ -32,6 +32,6 @@ want to publish a repo different from the current one.
 
 # License
 
-[MIT](LICENSE) &copy; 2019 Jonas Gierer
+[MIT](LICENSE) &copy; 2019 Jonas Gierer<br/>
 [MIT](LICENSE) &copy; 2020 Kyle Bloom
 

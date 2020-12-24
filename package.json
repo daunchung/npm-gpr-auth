@@ -10,7 +10,7 @@
     "build": "ncc build index.js --license LICENSE -m",
     "lint": "run-p --print-label --continue-on-error lint:*",
     "lint:js": "eslint --color --ignore-path .gitignore --ignore-pattern dist/index.js **/*.js",
-    "lint:other": "prettier --check --ignore-path .gitignore --ignore-path dist/index.js **/*.{json,md,yml}",
+    "lint:other": "prettier --check --ignore-path .gitignore **/*.{json,yml}",
     "posttest": "node ./test.js"
   },
   "dependencies": {
