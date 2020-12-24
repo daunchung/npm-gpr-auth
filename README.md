@@ -1,7 +1,7 @@
-# npm-auth-gpr
+# npm-gpr-auth
 
-This action authenticates npm for consuming and publishing packages from and to
-the GitHub Package Registry.
+Authenticate npm for consuming and publishing packages from and to the GitHub
+Package Registry on Linux, Windows, and macOS.
 
 # Usage
 
@@ -9,7 +9,7 @@ Make sure your project's local `.npmrc` and `package.json` is set up with the
 right repository scope and URL. Take a look at the
 [docs](https://help.github.com/en/articles/configuring-npm-for-use-with-github-package-registry)
 or
-[my step-by-step guide](https://dev.to/jgierer12/how-to-publish-packages-to-the-github-package-repository-4bai)
+[jgierer12's step-by-step guide](https://dev.to/jgierer12/how-to-publish-packages-to-the-github-package-repository-4bai)
 on how to do this.
 
 ```yaml
@@ -18,7 +18,7 @@ steps:
   - uses: actions/setup-node@v1
     with:
       node-version: ${{ matrix.node-version }}
-  - uses: jgierer12/npm-auth-gpr@v1
+  - uses: aquacash5/npm-gpr-auth@v2
     with:
       token: ${{ secrets.GITHUB_TOKEN }}
   - run: npm install
@@ -33,3 +33,5 @@ want to publish a repo different from the current one.
 # License
 
 [MIT](LICENSE) &copy; 2019 Jonas Gierer
+[MIT](LICENSE) &copy; 2020 Kyle Bloom
+

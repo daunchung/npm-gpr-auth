@@ -1,9 +1,10 @@
 {
-  "name": "@jgierer12/github-action-npm-auth-gpr",
+  "name": "@aquacash5/github-action-npm-gpr-auth",
   "private": true,
-  "repository": "https://github.com/jgierer12/npm-auth-gpr",
-  "author": "Jonas Gierer <jonas@gierer.xyz>",
+  "repository": "https://github.com/aquacash5/npm-gpr-auth",
+  "author": "Kyle Bloom <kylejbloom@gmail.com>",
   "license": "MIT",
+  "version": "2.0.0",
   "main": "dist/index.js",
   "scripts": {
     "build": "ncc build index.js --license LICENSE -m",
